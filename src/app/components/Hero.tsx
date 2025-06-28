@@ -25,7 +25,7 @@ export default function Hero() {
   className="overflow-hidden rounded-xl border-4 border-cyan-500 shadow-lg bg-white"
 >
   <Image
-    src="/profile1.jpg"
+    src="/profile.png"
     alt="Perfil"
     width={220}
     height={280}
