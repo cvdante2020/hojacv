@@ -5,6 +5,9 @@ import { motion } from "framer-motion";
 import { FaLinkedin, FaBuilding } from "react-icons/fa";
 
 export default function Hero() {
+
+
+
   return (
     <section className="flex flex-col md:flex-row items-center justify-between py-20 px-8 max-w-5xl mx-auto">
       <motion.div
@@ -39,8 +42,8 @@ export default function Hero() {
         transition={{ duration: 0.5 }}
         className="max-w-lg mt-10 md:mt-0"
       >
-        <h2 className="text-5xl font-bold text-white mb-4">Un Poco de mí</h2>
-        <p className="text-gray-300 text-sm md:text-base">
+        <h2 className="text-4xl font-extrabold mt-4">Un Poco de mí</h2>
+        <p className="text-gray-500 text-sm md:text-base">
        Soy un emprendedor apasionado por la innovación tecnológica y el crecimiento sostenible de los negocios. Como cofundador de Kimobill, transformé la manera en que las personas acceden a soluciones digitales en Ecuador, impulsando la inclusión financiera y la adopción de tecnologías de pago seguras y confiables. Mi visión se centra en crear soluciones inteligentes y escalables que impacten de manera positiva en la vida de las personas y las empresas.
 
 Con más de 25 años liderando proyectos de automatización y desarrollo de productos digitales, combino la creatividad con un enfoque estratégico para identificar oportunidades de mejora, optimizar procesos y conectar necesidades reales con soluciones tecnológicas.
@@ -57,5 +60,6 @@ Me especializo en el diseño de ecosistemas de software, la creación de sistema
       </motion.div>
     </section>
   );
+  
 }
 
